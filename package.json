@@ -1,0 +1,24 @@
+{
+  "name" : "weibo-oauth2-1",
+  "description" : "dont use this package, if pull requests are accepted then you wont need this use weibo-oauth2 package from npm",
+  "version" : "0.0.4",
+  "directories" : {
+    "lib": "./lib"
+  },
+  "main" : "index.js",
+  "author" : "nihaopaul <nihaopaul@gmail.com>",
+  "repository" : {
+    "type": "git",
+    "url": "http://github.com/nihaopaul/weibo-oauth2.git"
+  },
+  "keywords": ["OAuth2", "OAuth", "weibo", "twitter"],
+  "engines": {
+    "node": "*"
+  },
+  "licenses": [
+    {
+      "type" : "MIT",
+      "url" : "http://github.com/nihaopaul/weibo-oauth2/raw/master/LICENSE"
+    }
+  ]
+}
