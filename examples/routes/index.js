@@ -43,4 +43,30 @@ router.get('/checkout', function(req, res) {
 });
 
 
+router.get('/npminstall', function(req, res) {
+  var params = {
+    path: '.',
+  };
+  D.npmInstall(params, function(err, resp) {
+    if (err) {
+      res.send(resp);
+    } else {
+      res.send(resp);
+    }
+  })
+});
+
+router.get('/bowerinstall', function(req, res) {
+  var params = {
+    path: '.',
+  };
+  D.bowerInstall(params, function(err, resp) {
+    if (err) {
+      res.send(resp);
+    } else {
+      res.send(resp);
+    }
+  })
+});
+
 module.exports = router;
