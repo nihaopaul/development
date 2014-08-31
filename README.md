@@ -14,4 +14,4 @@ via npm:
 Usage
 ----------
 
-WIP
+see examples/
