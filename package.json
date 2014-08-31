@@ -1,7 +1,7 @@
 {
   "name": "development",
   "description": "nodejs module to allow for automated tasks on remote server like git pull, npm install and other tasks",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "directories": {
     "lib": "./lib"
   },
@@ -27,7 +27,6 @@
     }
   ],
   "dependencies": {
-    "git-pull": "^0.1.0",
     "npm": "^1.4.23"
   }
 }
